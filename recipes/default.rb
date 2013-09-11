@@ -17,4 +17,9 @@ file "/etc/tcpproxy.conf" do
   owner "root"
   group "root"
   mode 00644
+  notifies :restart, "service[tcpproxy]"
+end
+
+service "tcpproxy" do
+  action [:enable, :start]
 end
