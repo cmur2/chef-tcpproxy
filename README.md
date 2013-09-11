@@ -20,7 +20,7 @@ For supported Chef/Ruby version see [Travis](https://travis-ci.org/cmur2/chef-tc
 
 ## Recipes
 
-### default
+[A### default
 
 Uses name => hash entries from `node['tcpproxy']['listen']` to generate a configuration like [this](https://svn.spreadspace.org/tcpproxy/trunk/contrib/example.conf):
 
@@ -40,7 +40,6 @@ Uses name => hash entries from `node['tcpproxy']['listen']` to generate a config
 	  remote-resolv: ipv6;
 	  source: 2a02:3e0:2002:1:218:deff:fe03:ed;
 	};
-
 
 ## License
 
