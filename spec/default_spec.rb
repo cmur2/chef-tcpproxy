@@ -10,6 +10,11 @@ describe 'tcpproxy::default' do
     chef_runner.converge 'tcpproxy::default'
   end
   
+  it 'enables and starts tcpproxy' do
+    expect(chef_run).to start_service 'tcpproxy'
+    expect(chef_run).to set_service_to_start_on_boot 'tcpproxy'
+  end
+  
   it 'configures tcpproxy' do
     chef_runner.node.set['tcpproxy']['listen'] = {
       "example1" => {
