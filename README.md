@@ -4,7 +4,7 @@
 
 ## Description
 
-Configures the IPv4/IPv6 connection proxy - tcpproxy - from [http://spreadspace.org/tcpproxy/}(http://spreadspace.org/tcpproxy/) via */etc/tcpproxy.conf*. But it does **not** install it since there are multiple ways.
+Configures the IPv4/IPv6 connection proxy - tcpproxy - from [http://spreadspace.org/tcpproxy/](http://spreadspace.org/tcpproxy/) via */etc/tcpproxy.conf*. But it does **not** install it since there are multiple ways.
 
 ## Usage
 
