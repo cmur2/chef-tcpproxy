@@ -20,7 +20,7 @@ For supported Chef/Ruby version see [Travis](https://travis-ci.org/cmur2/chef-tc
 
 ## Recipes
 
-[A### default
+### default
 
 Uses name => hash entries from `node['tcpproxy']['listen']` to generate a configuration like [this](https://svn.spreadspace.org/tcpproxy/trunk/contrib/example.conf):
 
