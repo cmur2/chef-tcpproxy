@@ -1,4 +1,5 @@
 require 'chefspec'
+begin require 'chefspec/deprecations'; rescue LoadError; end
 
 describe 'tcpproxy::default' do
   let(:chef_runner) do
